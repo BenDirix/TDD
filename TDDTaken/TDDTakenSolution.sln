@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDTakenLibrary", "TDDTakenLibrary\TDDTakenLibrary.csproj", "{FADFCEBE-808E-4DD0-90A3-BC492ED47865}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDTakenLibraryTest", "TDDTakenLibraryTest\TDDTakenLibraryTest.csproj", "{0A556AF6-C27C-4F16-8B4D-2F41E6140EED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FADFCEBE-808E-4DD0-90A3-BC492ED47865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FADFCEBE-808E-4DD0-90A3-BC492ED47865}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FADFCEBE-808E-4DD0-90A3-BC492ED47865}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FADFCEBE-808E-4DD0-90A3-BC492ED47865}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A556AF6-C27C-4F16-8B4D-2F41E6140EED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A556AF6-C27C-4F16-8B4D-2F41E6140EED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A556AF6-C27C-4F16-8B4D-2F41E6140EED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A556AF6-C27C-4F16-8B4D-2F41E6140EED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2CF754B2-DCF3-4A45-AE17-2CFE644D50DA}
+	EndGlobalSection
+EndGlobal
