@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="JaarTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RekeningTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
