@@ -39,5 +39,16 @@ namespace TDDCursusLibraryTest
             rekening.Storten(1.2m);
             Assert.AreEqual(3.7m, rekening.Saldo);
         }
+
+        [TestMethod, ExpectedException(typeof(ArgumentException))]
+        public void HetBedragVanEenStortingMagNietNulZijn()
+        {
+            rekening.Storten(decimal.Zero);
+        }
+        [TestMethod, ExpectedException(typeof(ArgumentException))]
+        public void HetBedragVanEenStortingMagNietNegatiefZijn()
+        {
+            rekening.Storten(-1m);
+        }
     }
 }
