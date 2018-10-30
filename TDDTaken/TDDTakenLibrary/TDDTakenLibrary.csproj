@@ -41,9 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IKostDAO.cs" />
+    <Compile Include="IOpbrengstDao.cs" />
     <Compile Include="ISBN.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Veiling.cs" />
+    <Compile Include="WinstService.cs" />
     <Compile Include="Woord.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

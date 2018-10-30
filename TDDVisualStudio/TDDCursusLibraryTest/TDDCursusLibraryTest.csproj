@@ -50,10 +50,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="JaarTest.cs" />
+    <Compile Include="LandDAOStub.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RekeningTest.cs" />
     <Compile Include="RekeningnummerTest.cs" />
     <Compile Include="StatistiekTest.cs" />
+    <Compile Include="LandServiceTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

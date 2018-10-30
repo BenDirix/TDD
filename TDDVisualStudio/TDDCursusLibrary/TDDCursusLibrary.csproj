@@ -41,7 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ILandDAO.cs" />
     <Compile Include="Jaar.cs" />
+    <Compile Include="Land.cs" />
+    <Compile Include="LandService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Rekening.cs" />
     <Compile Include="Rekeningnummer.cs" />
