@@ -34,8 +34,7 @@ namespace TDDTakenLibrary
             if(controlegetal == 10)            
                 controlegetal = 0;
             if (dertiendeCijfer != controlegetal)
-                throw new ArgumentException();       
-
+                throw new ArgumentException();     
 
             _isbnNummer = nummer;
         }

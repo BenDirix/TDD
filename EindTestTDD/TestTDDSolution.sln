@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTDDLibrary", "TestTDDLibrary\TestTDDLibrary.csproj", "{02527CE4-438B-4EDA-AE30-7D23BCD6DC66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTDDTest", "TestTDDTest\TestTDDTest.csproj", "{B7D289CC-8379-484A-8215-4B491ADB4A47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02527CE4-438B-4EDA-AE30-7D23BCD6DC66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02527CE4-438B-4EDA-AE30-7D23BCD6DC66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02527CE4-438B-4EDA-AE30-7D23BCD6DC66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02527CE4-438B-4EDA-AE30-7D23BCD6DC66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7D289CC-8379-484A-8215-4B491ADB4A47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7D289CC-8379-484A-8215-4B491ADB4A47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7D289CC-8379-484A-8215-4B491ADB4A47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7D289CC-8379-484A-8215-4B491ADB4A47}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {500778C0-0D06-4E4E-A362-D49089009CFF}
+	EndGlobalSection
+EndGlobal
